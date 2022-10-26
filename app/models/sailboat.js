@@ -6,16 +6,16 @@ const sailboatSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
-        brand: {
+        manufacturer: {
 			type: String,
 			required: true,
 		},
 		length: {
-			type: String,
+			type: Number,
 			required: true,
 		},
         beam: {
-			type: String,
+			type: Number,
 			required: true,
 		},
         hulls: {
